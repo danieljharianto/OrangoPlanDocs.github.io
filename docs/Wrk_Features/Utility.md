@@ -7,6 +7,8 @@ hide:
 ## Utility
 These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.
 
+### File I/O
+
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -122,7 +124,29 @@ These design tools allow designers to test and compare spatial, environmental, a
       <td style="padding:12px; border:1px solid #ddd;">File Path</td>
       <td style="padding:12px; border:1px solid #ddd;">File path to export</td>
     </tr>
+  </tbody>
+</table>
 
+### Data Preview & Manipulation
+
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
     <!-- Table Preview -->
     <tr>
       <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
@@ -255,7 +279,29 @@ These design tools allow designers to test and compare spatial, environmental, a
       <td style="padding:12px; border:1px solid #ddd;">Dremove Duplicates</td>
       <td style="padding:12px; border:1px solid #ddd;">Remove duplicate values in each group</td>
     </tr>
+  </tbody>
+</table>
 
+### Data Classification
+
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
     <!-- Interval Classifier -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
@@ -288,7 +334,29 @@ These design tools allow designers to test and compare spatial, environmental, a
       <td style="padding:12px; border:1px solid #ddd;">Intervals</td>
       <td style="padding:12px; border:1px solid #ddd;">List of numeric interval strings</td>
     </tr>
+  </tbody>
+</table>
 
+### Rhino Reference
+
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
     <!-- Reference by Layer -->
     <tr>
       <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
@@ -335,7 +403,29 @@ These design tools allow designers to test and compare spatial, environmental, a
       <td style="padding:12px; border:1px solid #ddd;">Index</td>
       <td style="padding:12px; border:1px solid #ddd;">Index of matching color</td>
     </tr>
+  </tbody>
+</table>
 
+### List Matching
+
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
     <!-- Match List Geo -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
@@ -401,7 +491,29 @@ These design tools allow designers to test and compare spatial, environmental, a
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
     </tr>
+  </tbody>
+</table>
 
+### Object Attributes
+
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
     <!-- Extract Object Attributes -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
@@ -455,9 +567,9 @@ These design tools allow designers to test and compare spatial, environmental, a
       <td style="padding:12px; border:1px solid #ddd;">Values</td>
       <td style="padding:12px; border:1px solid #ddd;">Attribute values</td>
     </tr>
-
   </tbody>
 </table>
+
 
 
 
