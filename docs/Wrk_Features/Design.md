@@ -1,3 +1,8 @@
+---
+hide:
+  # - navigation
+  - toc
+---
 
 ## Design
 These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.
@@ -24,7 +29,7 @@ These design tools allow designers to test and compare spatial, environmental, a
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
                 <div style="display:flex; flex-direction:column; align-items:center;">
-          <img src="../../assets/Design/U_Import_CSV.png" alt="CSV Import" style="height:25px; margin-bottom:5px;">
+          <img src="../../assets/Utility/U_Import_CSV.png" alt="CSV Import" style="height:25px; margin-bottom:5px;">
           <span>CSV Import</span>
         </div>
       <td style="padding:12px; border:1px solid #ddd;">Import CSV File</td>
