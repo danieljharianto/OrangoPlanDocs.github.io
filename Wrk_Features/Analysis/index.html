@@ -82,7 +82,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="OrangoPlan Documentation" class="md-header__button md-logo" aria-label="OrangoPlan Documentation" data-md-component="logo">
       
@@ -160,13 +160,63 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Features
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -182,8 +232,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="OrangoPlan Documentation" class="md-nav__button md-logo" aria-label="OrangoPlan Documentation" data-md-component="logo">
       
@@ -234,15 +286,21 @@
     
     
     
+      
+        
+        
+      
+      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -341,6 +399,34 @@
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geometric-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geometric Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -451,6 +537,34 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Analysis">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geometric-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geometric Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -476,6 +590,7 @@
 
 <h2 id="analysis">Analysis</h2>
 <p>These analysis tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.</p>
+<h3 id="geometric-analysis">Geometric Analysis</h3>
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -494,24 +609,29 @@
     </tr>
   </thead>
   <tbody>
-    <!-- Centroid Tool -->
+    <!-- Centroid -->
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
           <img src="../../assets/Analysis/A_Centroid.png" alt="Centroid" style="height:25px; margin-bottom:5px;">
           <span>Centroid</span>
         </div>
       </td>
-      <td style="padding:12px; border:1px solid #ddd;">Analyze centroid of each closed curve</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
-      <td style="padding:12px; border:1px solid #ddd;">Curves</td>
-      <td style="padding:12px; border:1px solid #ddd;">Closed curves to analyze</td>
+      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Analyze centroid each closed curve</td>
+      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">C</td>
+      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Curves</td>
+      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Closed curves to analyze</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ct</td>
       <td style="padding:12px; border:1px solid #ddd;">Centroids</td>
-      <td style="padding:12px; border:1px solid #ddd;">Center points and area of closed curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Center points</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">A</td>
+      <td style="padding:12px; border:1px solid #ddd;">Area</td>
+      <td style="padding:12px; border:1px solid #ddd;">Area of closed curves</td>
     </tr>
 
-    <!-- Convex Hull Tool -->
+    <!-- Convex Hull -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
@@ -520,36 +640,51 @@
         </div>
       </td>
       <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create convex hull form points</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
-      <td style="padding:12px; border:1px solid #ddd;">Curves</td>
-      <td style="padding:12px; border:1px solid #ddd;">Curves to compute convex hull</td>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">C</td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Curves</td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Curves to compute convex hull</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pts</td>
       <td style="padding:12px; border:1px solid #ddd;">Convex Hull Points</td>
       <td style="padding:12px; border:1px solid #ddd;">Points of the convex hull</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;"></td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Hull</td>
       <td style="padding:12px; border:1px solid #ddd;">Convex Hull</td>
       <td style="padding:12px; border:1px solid #ddd;">Convex hull as a closed polyline</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;"></td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">A</td>
       <td style="padding:12px; border:1px solid #ddd;">Area</td>
       <td style="padding:12px; border:1px solid #ddd;">Area of the convex hull</td>
     </tr>
+  </tbody>
+</table>
 
-    <!-- Service Catchment Tool -->
+<h3 id="network-analysis">Network Analysis</h3>
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Service Catchment -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
           <img src="../../assets/Analysis/A_Service_Catchment.png" alt="Service Catchment" style="height:25px; margin-bottom:5px;">
-          <span>Service Catchment</span> 
+          <span>Service Catchment</span>
         </div>
       </td>
       <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Analyzes road service coverage based on search radius</td>
@@ -572,10 +707,12 @@
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
       <td style="padding:12px; border:1px solid #ddd;">Search Radius</td>
       <td style="padding:12px; border:1px solid #ddd;">Catchment radius from origin points</td>
-      <td colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd;">-</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
     </tr>
 
-    <!-- Shortest Path Tool -->
+    <!-- Shortest Path -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
@@ -589,7 +726,7 @@
       <td style="padding:12px; border:1px solid #ddd;">Start point of the path</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
       <td style="padding:12px; border:1px solid #ddd;">Shortest Path Curves</td>
-      <td style="padding:12px; border:1px solid #ddd;">Shortest path as curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Shortest path as a curves</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">E</td>
@@ -603,7 +740,9 @@
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
       <td style="padding:12px; border:1px solid #ddd;">Network Curves</td>
       <td style="padding:12px; border:1px solid #ddd;">Network curves to analyze</td>
-      <td colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd;">-</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
     </tr>
   </tbody>
 </table>
@@ -689,7 +828,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>

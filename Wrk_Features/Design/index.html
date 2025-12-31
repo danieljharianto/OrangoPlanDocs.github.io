@@ -82,7 +82,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="OrangoPlan Documentation" class="md-header__button md-logo" aria-label="OrangoPlan Documentation" data-md-component="logo">
       
@@ -160,13 +160,63 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Analysis/" class="md-tabs__link">
+          
+  
+  
+  Features
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -182,8 +232,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="OrangoPlan Documentation" class="md-nav__button md-logo" aria-label="OrangoPlan Documentation" data-md-component="logo">
       
@@ -234,15 +286,21 @@
     
     
     
+      
+        
+        
+      
+      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -370,6 +428,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#road-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Road Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcel-building-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parcel &amp; Building Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viewport-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewport Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -451,6 +548,45 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Design">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#road-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Road Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parcel-building-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parcel &amp; Building Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viewport-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viewport Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -476,6 +612,7 @@
 
 <h2 id="design">Design</h2>
 <p>These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.</p>
+<h3 id="road-tools">Road Tools</h3>
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -494,454 +631,465 @@
     </tr>
   </thead>
   <tbody>
-    <!-- CSV Import -->
+    <!-- Road Offset Tool -->
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
-                <div style="display:flex; flex-direction:column; align-items:center;">
-          <img src="../../assets/Utility/U_Import_CSV.png" alt="CSV Import" style="height:25px; margin-bottom:5px;">
-          <span>CSV Import</span>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Road_Offset_Tool.png" alt="Road Offset Tool" style="height:25px; margin-bottom:5px;">
+          <span>Offset Tool</span>
         </div>
-      <td style="padding:12px; border:1px solid #ddd;">Import CSV File</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">File</td>
-      <td style="padding:12px; border:1px solid #ddd;">File Path</td>
-      <td style="padding:12px; border:1px solid #ddd;">Path to the CSV file</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers as a list</td>
+      </td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Offset curve based on categorized width</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Crv</td>
+      <td style="padding:12px; border:1px solid #ddd;">Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Input curve to offset</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">U</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union Result</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union all offset curves</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset widths for each curve</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">O</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset curves</td>
     </tr>
     <tr>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">CSV data organized as a tree (columns as branches)</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Stat</td>
-      <td style="padding:12px; border:1px solid #ddd;">Status</td>
-      <td style="padding:12px; border:1px solid #ddd;">Export status message</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths for each offset curve</td>
     </tr>
 
-    <!-- CSV Export -->
+    <!-- Road Chamfer Tool -->
     <tr>
-      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">CSV Export</td>
-      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Export as CSV File</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Column headers for CSV</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
+      <td rowspan="4" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Road_Chamfer_Tool.png" alt="Road Chamfer Tool" style="height:25px; margin-bottom:5px;">
+          <span>Chamfer Tool</span>
+        </div>
+      </td>
+      <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Chamfer curve based on relevant offset width</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">U</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union curve to split</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer Radius</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer boundaries</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data to export as a tree</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">O</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset curves for intersection</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">J</td>
+      <td style="padding:12px; border:1px solid #ddd;">Join Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Connecting curves</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Path</td>
-      <td style="padding:12px; border:1px solid #ddd;">File Path</td>
-      <td style="padding:12px; border:1px solid #ddd;">File path to export</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-
-    <!-- XLS Import -->
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">XLS Import</td>
-      <td style="padding:12px; border:1px solid #ddd;">Import XLS File</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">File</td>
-      <td style="padding:12px; border:1px solid #ddd;">File Path</td>
-      <td style="padding:12px; border:1px solid #ddd;">Path to the CSV file</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers as a list</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths for each offset curve</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
+      <td style="padding:12px; border:1px solid #ddd;">Result Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfered closed curves</td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">CSV data organized as a tree (columns as branches)</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Stat</td>
-      <td style="padding:12px; border:1px solid #ddd;">Status</td>
-      <td style="padding:12px; border:1px solid #ddd;">Export status message</td>
-    </tr>
-
-    <!-- XLS Export -->
-    <tr>
-      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">XLS Export</td>
-      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Export as XLS File</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Column headers for CSV</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data to export as a tree</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Path</td>
-      <td style="padding:12px; border:1px solid #ddd;">File Path</td>
-      <td style="padding:12px; border:1px solid #ddd;">File path to export</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
+      <td style="padding:12px; border:1px solid #ddd;">Ratio</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer circle radius ratio</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
     </tr>
 
-    <!-- Table Preview -->
+    <!-- Road Fillet Tool -->
     <tr>
-      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Table Preview</td>
-      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Preview CSV or XLS File</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Column headers for CSV</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Prev</td>
-      <td style="padding:12px; border:1px solid #ddd;">Formatted Preview</td>
-      <td style="padding:12px; border:1px solid #ddd;">Formatted CSV preview with padding</td>
+      <td rowspan="4" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Road_Fillet_Tool.png" alt="Road Fillet Tool" style="height:25px; margin-bottom:5px;">
+          <span>Fillet Tool</span>
+        </div>
+      </td>
+      <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Fillet curve based on relevant offset width</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">U</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Union curve to split</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer Radius</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer boundaries</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data to export as a tree</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-
-    <!-- Column Add -->
-    <tr>
-      <td rowspan="4" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Column Add</td>
-      <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Add new column in data tree</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Bh</td>
-      <td style="padding:12px; border:1px solid #ddd;">Base Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers of the base CSV</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Uh</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Combined headers of the updated CSV</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">O</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Offset curves for intersection</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">J</td>
+      <td style="padding:12px; border:1px solid #ddd;">Join Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Connecting curves</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Bd</td>
-      <td style="padding:12px; border:1px solid #ddd;">Base Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data tree of the base CSV</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ud</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated CSV data as a tree</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths for each offset curve</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
+      <td style="padding:12px; border:1px solid #ddd;">Result Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfered closed curves</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Nh</td>
-      <td style="padding:12px; border:1px solid #ddd;">New Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers of the new columns</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Nd</td>
-      <td style="padding:12px; border:1px solid #ddd;">New Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data tree of the new columns</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">R</td>
+      <td style="padding:12px; border:1px solid #ddd;">Ratio</td>
+      <td style="padding:12px; border:1px solid #ddd;">Chamfer circle radius ratio</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
     </tr>
 
-    <!-- Column Remove -->
+    <!-- Road Section -->
     <tr>
-      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Column Remove</td>
-      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Remove column in data tree</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of CSV headers</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Uh</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated Headers</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated headers</td>
+      <td rowspan="8" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Road_Section.png" alt="Road Section" style="height:25px; margin-bottom:5px;">
+          <span>Road Section</span>
+        </div>
+      </td>
+      <td rowspan="8" style="padding:12px; border:1px solid #ddd; vertical-align:middle;"></td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Hc</td>
+      <td style="padding:12px; border:1px solid #ddd;">Headway Count</td>
+      <td style="padding:12px; border:1px solid #ddd;">Number of headways per side</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rects</td>
+      <td style="padding:12px; border:1px solid #ddd;">Section Rectngles</td>
+      <td style="padding:12px; border:1px solid #ddd;">Closed rectangles for each section parts</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">CSV data organized as a tree (columns as branches)</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ud</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Updated CSV data as a tree</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Hw</td>
+      <td style="padding:12px; border:1px solid #ddd;">Headway Width</td>
+      <td style="padding:12px; border:1px solid #ddd;">Width of each headway</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Geo</td>
+      <td style="padding:12px; border:1px solid #ddd;">Embedded Geometry</td>
+      <td style="padding:12px; border:1px solid #ddd;">Embedded car/geometry placed on suitable sections</td>
     </tr>
     <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rh</td>
-      <td style="padding:12px; border:1px solid #ddd;">Header to Remove</td>
-      <td style="padding:12px; border:1px solid #ddd;">Header of the column to remove</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pc</td>
+      <td style="padding:12px; border:1px solid #ddd;">Ped Count</td>
+      <td style="padding:12px; border:1px solid #ddd;">Number of pedestrian path per side</td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pw</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Width of each pedestrian path</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Cw</td>
+      <td style="padding:12px; border:1px solid #ddd;">Curb Width</td>
+      <td style="padding:12px; border:1px solid #ddd;">Width of curbs</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Iw</td>
+      <td style="padding:12px; border:1px solid #ddd;">Island Width</td>
+      <td style="padding:12px; border:1px solid #ddd;">Width of center island</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">H</td>
+      <td style="padding:12px; border:1px solid #ddd;">Lane Height</td>
+      <td style="padding:12px; border:1px solid #ddd;">Height od section rectangles</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">T</td>
+      <td style="padding:12px; border:1px solid #ddd;">Text Height</td>
+      <td style="padding:12px; border:1px solid #ddd;">Height of font</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="parcel-building-tools">Parcel &amp; Building Tools</h3>
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Recursive Split -->
+    <tr>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Recursive_Split.png" alt="Recursive Split" style="height:25px; margin-bottom:5px;">
+          <span>Recursive Split</span>
+        </div>
+      </td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Splits planar boundaries recursively using subdivided curves</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
+      <td style="padding:12px; border:1px solid #ddd;">Curve</td>
+      <td style="padding:12px; border:1px solid #ddd;">Base curve boundary</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Sort</td>
+      <td style="padding:12px; border:1px solid #ddd;">Sorted</td>
+      <td style="padding:12px; border:1px solid #ddd;">Sorted input segments</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">F</td>
+      <td style="padding:12px; border:1px solid #ddd;">Fraction</td>
+      <td style="padding:12px; border:1px solid #ddd;">Subdivision domain fraction (0.0 to 1.0)</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">S</td>
+      <td style="padding:12px; border:1px solid #ddd;">Splits</td>
+      <td style="padding:12px; border:1px solid #ddd;">All splitting curves</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">N</td>
+      <td style="padding:12px; border:1px solid #ddd;">Iterations</td>
+      <td style="padding:12px; border:1px solid #ddd;">Number of recursive iterations</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">B</td>
+      <td style="padding:12px; border:1px solid #ddd;">Boundaries</td>
+      <td style="padding:12px; border:1px solid #ddd;">Joined closed curves</td>
     </tr>
 
-    <!-- Pivot by Header -->
+    <!-- Extract Parcel -->
     <tr>
-      <td rowspan="4" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Pivot by Header</td>
-      <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Pivot data by a specific column header</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Data as tree</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Group</td>
-      <td style="padding:12px; border:1px solid #ddd;">Grouped Data</td>
-      <td style="padding:12px; border:1px solid #ddd;">Grouped data as a tree</td>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Extract_Parcel.png" alt="Extract Parcel" style="height:25px; margin-bottom:5px;">
+          <span>Extract Parcel</span>
+        </div>
+      </td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Extract Parcel by substracting deisgned road and site boundary</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Roads</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of closed road curves</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">P</td>
+      <td style="padding:12px; border:1px solid #ddd;">Parcels</td>
+      <td style="padding:12px; border:1px solid #ddd;">Resulting parcel curves</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Key</td>
-      <td style="padding:12px; border:1px solid #ddd;">Group Key</td>
-      <td style="padding:12px; border:1px solid #ddd;">Name of the header to use for grouping key</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">S</td>
+      <td style="padding:12px; border:1px solid #ddd;">Site</td>
+      <td style="padding:12px; border:1px solid #ddd;">Site boundary curve</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ct</td>
+      <td style="padding:12px; border:1px solid #ddd;">Centroids</td>
+      <td style="padding:12px; border:1px solid #ddd;">Center points</td>
+    </tr>
+    <tr>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
       <td style="border:1px solid #ddd;"></td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">A</td>
+      <td style="padding:12px; border:1px solid #ddd;">Area</td>
+      <td style="padding:12px; border:1px solid #ddd;">Area of closed curves</td>
+    </tr>
+
+    <!-- Calculate Parcel -->
+    <tr>
+      <td rowspan="5" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Calculate_Parcel.png" alt="Calculate Parcel" style="height:25px; margin-bottom:5px;">
+          <span>Calculate Parcel</span>
+        </div>
+      </td>
+      <td rowspan="5" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Calculate parcels for areas, GFA, FAR, BCR, etc</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">ctBld</td>
+      <td style="padding:12px; border:1px solid #ddd;">Building Centroids</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of building footprint centroids</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Fp</td>
+      <td style="padding:12px; border:1px solid #ddd;">Footprint</td>
+      <td style="padding:12px; border:1px solid #ddd;">Footprint area per parcel</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">areaBld</td>
+      <td style="padding:12px; border:1px solid #ddd;">Building Areas</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of building footprint area</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">BCR</td>
+      <td style="padding:12px; border:1px solid #ddd;">BCR</td>
+      <td style="padding:12px; border:1px solid #ddd;">Building Coverage Ratio</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">floorBld</td>
+      <td style="padding:12px; border:1px solid #ddd;">Building Floors</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of building floors</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">GFA</td>
+      <td style="padding:12px; border:1px solid #ddd;">GFA</td>
+      <td style="padding:12px; border:1px solid #ddd;">Gross Floor Area per parcel</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">P</td>
+      <td style="padding:12px; border:1px solid #ddd;">Parcels</td>
+      <td style="padding:12px; border:1px solid #ddd;">Tree of parcel curves</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">FAR</td>
+      <td style="padding:12px; border:1px solid #ddd;">FAR</td>
+      <td style="padding:12px; border:1px solid #ddd;">Floor Area Ratio per parcel</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">MaxF</td>
+      <td style="padding:12px; border:1px solid #ddd;">Max Floor</td>
+      <td style="padding:12px; border:1px solid #ddd;">Maximum floors per parcel</td>
+    </tr>
+
+    <!-- Extrude Building -->
+    <tr>
+      <td rowspan="4" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Extrude_Building.png" alt="Extrude Building" style="height:25px; margin-bottom:5px;">
+          <span>Extrude Building</span>
+        </div>
+      </td>
+      <td rowspan="4" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Extrude building curves based on types and floors</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
+      <td style="padding:12px; border:1px solid #ddd;">Curves</td>
+      <td style="padding:12px; border:1px solid #ddd;">Footprint curves</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">All</td>
+      <td style="padding:12px; border:1px solid #ddd;">All Extrusion</td>
+      <td style="padding:12px; border:1px solid #ddd;">All extrude volumes</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">T</td>
+      <td style="padding:12px; border:1px solid #ddd;">Types</td>
+      <td style="padding:12px; border:1px solid #ddd;">Building types: landed or tower</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Landed</td>
+      <td style="padding:12px; border:1px solid #ddd;">Landed Extrusions</td>
+      <td style="padding:12px; border:1px solid #ddd;">Extrusions for landed buildings</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">F</td>
+      <td style="padding:12px; border:1px solid #ddd;">Floors</td>
+      <td style="padding:12px; border:1px solid #ddd;">Floor count for each cruve</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Tower</td>
+      <td style="padding:12px; border:1px solid #ddd;">Tower Extrusions</td>
+      <td style="padding:12px; border:1px solid #ddd;">Extrusions for tower buildings</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">H</td>
+      <td style="padding:12px; border:1px solid #ddd;">Floor Height</td>
+      <td style="padding:12px; border:1px solid #ddd;">Height on one floor</td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+      <td style="border:1px solid #ddd;"></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="viewport-tools">Viewport Tools</h3>
+<table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color: #e8e8e8;">
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Tool</th>
+      <th rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Function</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Input</th>
+      <th colspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; background-color: #e8e8e8;">Output</th>
+    </tr>
+    <tr style="background-color: #e8e8e8;">
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+      <th style="text-align:center; padding:8px; border:8px; border:1px solid #ddd; background-color: #e8e8e8;">Initial</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Name</th>
+      <th style="text-align:center; padding:8px; border:1px solid #ddd; background-color: #e8e8e8;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Custom Foreground Bar -->
+    <tr>
+      <td rowspan="5" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Custom_Foreground_Bar.png" alt="Custom Foreground Bar" style="height:25px; margin-bottom:5px;">
+          <span>Foreground Bar</span>
+        </div>
+      </td>
+      <td rowspan="5" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create custom foreground bar preview</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pos</td>
+      <td style="padding:12px; border:1px solid #ddd;">Position</td>
+      <td style="padding:12px; border:1px solid #ddd;">Start location for drawing bars</td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Labels</td>
+      <td style="padding:12px; border:1px solid #ddd;">Text Items</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of text to display</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
-      <td style="padding:12px; border:1px solid #ddd;">Value Column</td>
-      <td style="padding:12px; border:1px solid #ddd;">Name of the header to extract values from</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
+      <td style="padding:12px; border:1px solid #ddd;">Values</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of segment values</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Head</td>
-      <td style="padding:12px; border:1px solid #ddd;">Remove Header</td>
-      <td style="padding:12px; border:1px solid #ddd;">Remove header values in each group</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Dups</td>
-      <td style="padding:12px; border:1px solid #ddd;">Dremove Duplicates</td>
-      <td style="padding:12px; border:1px solid #ddd;">Remove duplicate values in each group</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-
-    <!-- Interval Classifier -->
-    <tr>
-      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Interval Classifier</td>
-      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Divides numeric data into equal-width interval</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">N</td>
-      <td style="padding:12px; border:1px solid #ddd;">Numbers</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of values to classify</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Max</td>
-      <td style="padding:12px; border:1px solid #ddd;">Max</td>
-      <td style="padding:12px; border:1px solid #ddd;">Maximum value in list</td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">n</td>
-      <td style="padding:12px; border:1px solid #ddd;">Interval Segments</td>
-      <td style="padding:12px; border:1px solid #ddd;">Number of interval division</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Min</td>
-      <td style="padding:12px; border:1px solid #ddd;">Min</td>
-      <td style="padding:12px; border:1px solid #ddd;">Minimum value in list</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">I</td>
-      <td style="padding:12px; border:1px solid #ddd;">Intervals</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of numeric interval strings</td>
-    </tr>
-
-    <!-- Reference by Layer -->
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Reference by Layer</td>
-      <td style="padding:12px; border:1px solid #ddd;">Reference Rhino object by its layer</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">L</td>
-      <td style="padding:12px; border:1px solid #ddd;">Input Layer</td>
-      <td style="padding:12px; border:1px solid #ddd;">Layer name to query</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Obj</td>
-      <td style="padding:12px; border:1px solid #ddd;">Objects</td>
-      <td style="padding:12px; border:1px solid #ddd;">Objects from layer</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ref</td>
-      <td style="padding:12px; border:1px solid #ddd;">Referenced Layer</td>
-      <td style="padding:12px; border:1px solid #ddd;">Object's layer name and path</td>
-    </tr>
-
-    <!-- Reference by Color -->
-    <tr>
-      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Reference by Color</td>
-      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Reference Rhino object by its color</td>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
       <td style="padding:12px; border:1px solid #ddd;">Color</td>
-      <td style="padding:12px; border:1px solid #ddd;">Target color to match</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Obj</td>
-      <td style="padding:12px; border:1px solid #ddd;">Objects from layer</td>
-      <td style="padding:12px; border:1px solid #ddd;">Objects from matching color</td>
+      <td style="padding:12px; border:1px solid #ddd;">Rectangle fill color</td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;"></td>
-      <td style="padding:12px; border:1px solid #ddd;">Tolerance</td>
-      <td style="padding:12px; border:1px solid #ddd;">Color matching tolerance</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Idx</td>
-      <td style="padding:12px; border:1px solid #ddd;">Index</td>
-      <td style="padding:12px; border:1px solid #ddd;">Index of matching color</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Rd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Radius</td>
+      <td style="padding:12px; border:1px solid #ddd;">Radius of the pie chart</td>
     </tr>
 
-    <!-- Match List Geo -->
+    <!-- Custom Viewport Pie -->
     <tr>
-      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Match List Geo</td>
-      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Match text tree against a mask list text</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Text</td>
-      <td style="padding:12px; border:1px solid #ddd;">Text Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Bool</td>
-      <td style="padding:12px; border:1px solid #ddd;">Boolean Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Tree of boolean match mask results</td>
+      <td rowspan="5" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Custom_Viewport_Pie.png" alt="Custom Viewport Pie" style="height:25px; margin-bottom:5px;">
+          <span>Viewport Pie</span>
+        </div>
+      </td>
+      <td rowspan="5" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create custom pie preview</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pos</td>
+      <td style="padding:12px; border:1px solid #ddd;">Position</td>
+      <td style="padding:12px; border:1px solid #ddd;">Start location for drawing bars</td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
     </tr>
     <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Mask</td>
-      <td style="padding:12px; border:1px solid #ddd;">Max List</td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
-      <td style="padding:12px; border:1px solid #ddd;">Matched Values</td>
-      <td style="padding:12px; border:1px solid #ddd;">Tree of dispatched items based on match list</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">M</td>
-      <td style="padding:12px; border:1px solid #ddd;">Masking List</td>
-      <td style="padding:12px; border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-
-    <!-- Match List Text -->
-    <tr>
-      <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Match List Text</td>
-      <td rowspan="2" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Match text tree against a mask list text</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Text</td>
-      <td style="padding:12px; border:1px solid #ddd;">Text Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Tree of input text</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Bool</td>
-      <td style="padding:12px; border:1px solid #ddd;">Boolean Tree</td>
-      <td style="padding:12px; border:1px solid #ddd;">Tree of boolean match mask results</td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Mask</td>
-      <td style="padding:12px; border:1px solid #ddd;">Mask List</td>
-      <td style="padding:12px; border:1px solid #ddd;">List of match mask strings</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
-      <td style="padding:12px; border:1px solid #ddd;">Matched Values</td>
-      <td style="padding:12px; border:1px solid #ddd;">Tree of dispatched items based on match list</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">M</td>
-      <td style="padding:12px; border:1px solid #ddd;">Matches List</td>
-      <td style="padding:12px; border:1px solid #ddd;">List to dispatch using masking results</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-    </tr>
-
-    <!-- Extract Object Attributes -->
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Extract Object Attributes</td>
-      <td style="padding:12px; border:1px solid #ddd;">Extracts object attribute key-value pairs from referenced Rhino object</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">G</td>
-      <td style="padding:12px; border:1px solid #ddd;">Geometry</td>
-      <td style="padding:12px; border:1px solid #ddd;">Referenced geometry from Rhino</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Key</td>
-      <td style="padding:12px; border:1px solid #ddd;">Keys</td>
-      <td style="padding:12px; border:1px solid #ddd;">Attribute keys</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
-      <td style="padding:12px; border:1px solid #ddd;">Values</td>
-      <td style="padding:12px; border:1px solid #ddd;">Attribute values</td>
-    </tr>
-    <tr>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ref</td>
-      <td style="padding:12px; border:1px solid #ddd;">Referenced Layer</td>
-      <td style="padding:12px; border:1px solid #ddd;">Object's layer name</td>
-    </tr>
-
-    <!-- Edit Object Attributes -->
-    <tr>
-      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Edit Object Attributes</td>
-      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Edits object attributes key-value pairs to a referenced Rhino object</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">G</td>
-      <td style="padding:12px; border:1px solid #ddd;">Geometry</td>
-      <td style="padding:12px; border:1px solid #ddd;">Referenced geometry from rhino</td>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Stat</td>
-      <td style="padding:12px; border:1px solid #ddd;">Status</td>
-      <td style="padding:12px; border:1px solid #ddd;">Operation status message</td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Key</td>
-      <td style="padding:12px; border:1px solid #ddd;">Keys</td>
-      <td style="padding:12px; border:1px solid #ddd;">Attribute keys</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Labels</td>
+      <td style="padding:12px; border:1px solid #ddd;">Text Items</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of text to display</td>
     </tr>
     <tr>
       <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
       <td style="padding:12px; border:1px solid #ddd;">Values</td>
-      <td style="padding:12px; border:1px solid #ddd;">Attribute values</td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
-      <td style="border:1px solid #ddd;"></td>
+      <td style="padding:12px; border:1px solid #ddd;">List of segment values</td>
     </tr>
-
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
+      <td style="padding:12px; border:1px solid #ddd;">Color</td>
+      <td style="padding:12px; border:1px solid #ddd;">Rectangle fill color</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Maximum rectangle width in pixels</td>
+    </tr>
   </tbody>
 </table>
 
@@ -1026,7 +1174,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
