@@ -6,7 +6,6 @@ copyright: Copyright © 2025 Daniel J Harianto
 extra_css:
   - stylesheets/extra.css
 
-
 markdown_extensions:
   - admonition
   - pymdownx.details
@@ -44,10 +43,13 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    # - navigation.instant      ← Remove this if present
+    # - navigation.tracking     ← Remove this if present
+    # - header.autohide         ← Remove this if present
     - navigation.top
     - search.suggest
     - search.highlight
-    #- content.code.copy
+    - content.code.copy
     - content.code.select
 
   font:
@@ -66,8 +68,8 @@ theme:
 #       icon: material/brightness-4
 #       name: Switch to light mode  
 
-plugins:
-  - search
+# plugins:
+#   - search
 
 nav:
   - Home:
