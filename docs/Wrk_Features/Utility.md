@@ -4,18 +4,13 @@ hide:
   - toc
 ---
 
-These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.
+##Utility
+Utility Tools support data handling, interoperability, and workflow management across the modeling environment. The tools are divided into six categories: File I/O, for importing and exporting data; Data Preview and Manipulation, for inspecting, cleaning, and transforming datasets; Data Classification, for organizing data into meaningful groups; Rhino Reference, for linking and managing Rhino geometry; List Matching, for aligning and synchronizing datasets; and Object Attributes, for editing and managing geometric and non-geometric attributes.
 
-
-!!! pied-piper "Pied Piper"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-    purus auctor massa, nec semper lorem quam in massa.
 
 ### File I/O
 
-These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs
+
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
@@ -135,9 +130,16 @@ These design tools allow designers to test and compare spatial, environmental, a
   </tbody>
 </table>
 
-### Data Preview & Manipulation
+!!! Tip  "Important Tips"
 
-These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs
+    - Ensure all input files follow the required format, structure, and encoding (e.g., consistent delimiters, headers, and data types).
+    - Verify coordinate systems, units, and scale before importing to avoid misalignment or incorrect calculations.
+    - Clean and validate datasets in advance by removing null values, duplicates, or inconsistent entries.
+    - When exporting data, clearly define attribute fields and naming conventions to maintain compatibility with GIS, CAD, or external analysis tools.
+    - Use incremental exports during iterative workflows to track changes and simplify troubleshooting.
+    - Always cross-check imported and exported data against the source files to confirm accuracy and completeness.
+    
+### Data Preview & Manipulation
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
@@ -349,8 +351,6 @@ These design tools allow designers to test and compare spatial, environmental, a
 
 ### Rhino Reference
 
-These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs
-
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -507,8 +507,6 @@ These design tools allow designers to test and compare spatial, environmental, a
 </table>
 
 ### Object Attributes
-
-These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>

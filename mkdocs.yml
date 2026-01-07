@@ -43,14 +43,11 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    # - navigation.instant      ← Remove this if present
-    # - navigation.tracking     ← Remove this if present
-    # - header.autohide         ← Remove this if present
-    - navigation.top
-    - search.suggest
+    - search.disabled
     - search.highlight
     - content.code.copy
     - content.code.select
+    - toc.hide
 
   font:
     text: Inter
@@ -80,7 +77,7 @@ nav:
     - Analysis: Wrk_Features/Analysis.md
     - Design: Wrk_Features/Design.md
     - Utility: Wrk_Features/Utility.md
-  - Examples: Example.md
+  - About: Authorship.md
 
 extra:
   social:

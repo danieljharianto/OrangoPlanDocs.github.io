@@ -4,41 +4,35 @@ hide:
   - toc
 ---
 
+
+
+<p align="center">
+  <img src="assets/001.png" alt="Orangoplan" width="600">
+</p>
+
 <div style="text-align: center" ;>
-
-<h2> This text is centered </h2>
-<h2> Works with multiple lines </h2>
-
+  <h4> OrangoPlan is a parametric urban analysis and design toolkit for Rhino–Grasshopper that enables real-time evaluation of spatial, network, and urban performance within iterative design workflows.</h4>
 </div>
 
- ![Alt text for the image](assets/Sample_03.png "Usage example") 
+[Getting Started](Home/Getting_Started.md){ .md-button .md-button--primary }
+ &nbsp;
+ <div style="text-align: center;">
+  <video autoplay loop muted playsinline style="max-width: 95%;">
+    <source src="assets/Sample.mp4" type="video/mp4">
+    Your browser doesn't support video playback.
+  </video>
+</div>
  &nbsp;
 
- &nbsp;
- &nbsp;
+ <!-- ![Alt text for the image](assets/Sample_02.png "Usage example")  -->
 
- &nbsp;
- ![Alt text for the image](assets/Sample_02.png "Usage example") 
 
-!!! info inline end "Lorem ipsum"
+<div style="text-align: center" ;>
+  <h5> The development of OrangoPlan is driven by a commitment to knowledge sharing and is released as a free plugin to encourage widespread adoption of sustainable, data-informed design practices.</h5>
+</div>
 
-    Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Nulla et euismod nulla.
-    Curabitur feugiat, tortor non consequat
-    finibus, justo purus auctor massa, nec
-    semper lorem quam in massa.
-
-!!! pied-piper "Pied Piper"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-    purus auctor massa, nec semper lorem quam in massa.
+&nbsp;
 
 
 
 
-
-
-## Authorship
-made by Daniel J Harianto @2025 Cambridge, Massachusetts  
-Last updated at 2026/01/01

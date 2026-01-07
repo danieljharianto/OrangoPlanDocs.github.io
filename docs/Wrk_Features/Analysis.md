@@ -4,18 +4,15 @@ hide:
   - toc
 ---
 
+##Analysis
+Analysis Tools allow designers to perform real-time analysis of spatial and urban performance within the model. The tools are divided into two categories: Geometric Analysis, for evaluating spatial properties such as area, density, parcel metrics, and dimensional relationships; and Network Analysis, for assessing connectivity, accessibility, and movement performance across street and path networks.
 
+!!! Tip  "Important Tips"
 
-These analysis tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.
+    These tools are intended to support exploratory design and comparative analysis. Results should be interpreted as indicative rather than definitive and validated with authoritative data where required. Users are strongly encouraged to cross-check outputs against verified datasets, local regulations, and to review assumptions, input parameters, and data sources before drawing conclusions or making design decisions.
+
 
 ### Geometric Analysis
-These analysis tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. 
-
-!!! pied-piper "Pied Piper"
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-    purus auctor massa, nec semper lorem quam in massa.
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
@@ -87,7 +84,6 @@ These analysis tools allow designers to test and compare spatial, environmental,
 </table>
 
 ### Network Analysis
-These analysis tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. 
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
@@ -175,4 +171,4 @@ These analysis tools allow designers to test and compare spatial, environmental,
   </tbody>
 </table>
 
-The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.
+

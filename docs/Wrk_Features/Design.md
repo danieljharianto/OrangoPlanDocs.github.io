@@ -4,7 +4,8 @@ hide:
   - toc
 ---
 
-These design tools allow designers to test and compare spatial, environmental, and performance criteria directly within parametric models. By integrating data-driven insights—such as accessibility, reachability or circulation patterns—into the design workflow. This enables architects, planners, and urban designers to move beyond intuition alone, creating spatial and urban strategies that are more efficient, resilient, and responsive to human and environmental needs.
+##Design
+Design Tools enable designers to test and compare spatial, environmental, and performance criteria directly within parametric models. The tools are divided into three categories: Road Tools, for generating and refining street geometry and sections; Parcel and Building Tools, for shaping parcels, extruding buildings, and managing design attributes; and Viewport Tools, for visualizing density, height, and other spatial performance metrics in real time.
 
 ### Road Tools
 
@@ -215,6 +216,11 @@ These design tools allow designers to test and compare spatial, environmental, a
     </tr>
   </tbody>
 </table>
+
+!!! Tip  "Tip"
+
+    These tools are flexible, allowing road detail inputs to be modified through the provided .csv input files. This enables users to customize parameters, update design assumptions, and test multiple scenarios without altering the core model logic.
+
 
 ### Parcel & Building Tools
 
@@ -492,4 +498,3 @@ These design tools allow designers to test and compare spatial, environmental, a
 
 
 
-The show's format consists of a combination of commercial television production elements and techniques which have evolved to reflect changes in American culture and audiences' viewing habits. It was the first children's TV show to use educational goals and a curriculum to shape its content, and the first show whose educational effects were formally studied. Its format and content have undergone significant changes over the years to reflect changes to its curriculum.
