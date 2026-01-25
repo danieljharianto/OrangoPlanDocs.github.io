@@ -54,7 +54,7 @@
 }
 
 .md-typeset {
-    font-size: 1.5em;
+    font-size: 1.35em;
     font-weight: 100;
     line-height: 1.2;
 }
@@ -330,15 +330,15 @@ video[src*="Sample.mp4"] {
     }
     
     .md-typeset h1 {
-        font-size: 1.3em !important;
-    }
-    
-    .md-typeset h2 {
         font-size: 1.2em !important;
     }
     
-    .md-typeset h3 {
+    .md-typeset h2 {
         font-size: 1.1em !important;
+    }
+    
+    .md-typeset h3 {
+        font-size: 1em !important;
     }
     
     .md-typeset h4 {
