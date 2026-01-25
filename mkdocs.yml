@@ -50,7 +50,7 @@ theme:
     - toc.hide
 
   font:
-    text: Inter
+    text: Work Sans
   logo: assets/Logo.png
   favicon: assets/Logo.png
 
