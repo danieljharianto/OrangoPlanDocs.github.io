@@ -772,10 +772,6 @@
 <h2 id="design">Design</h2>
 <p>Design Tools enable designers to test and compare spatial, environmental, and performance criteria directly within parametric models. The tools are divided into three categories: Road Tools, for generating and refining street geometry and sections; Parcel and Building Tools, for shaping parcels, extruding buildings, and managing design attributes; and Viewport Tools, for visualizing density, height, and other spatial performance metrics in real time.</p>
 <h3 id="road-tools">Road Tools</h3>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>These tools are flexible, allowing road detail inputs to be modified through the provided .csv input files. This enables users to customize parameters, update design assumptions, and test multiple scenarios without altering the core model logic.</p>
-</div>
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -1217,8 +1213,49 @@
       <td style="padding:12px; border:1px solid #ddd;">Radius of the pie chart</td>
     </tr>
 
-    </tbody>
+    <!-- Custom Viewport Pie -->
     <tr>
+      <td rowspan="5" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Design/D_Custom_Viewport_Pie.png" alt="Custom Viewport Pie" style="height:25px; margin-bottom:5px;">
+          <span>Viewport Pie</span>
+        </div>
+      </td>
+      <td rowspan="5" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Create custom pie preview</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Pos</td>
+      <td style="padding:12px; border:1px solid #ddd;">Position</td>
+      <td style="padding:12px; border:1px solid #ddd;">Start location for drawing bars</td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+      <td rowspan="5" style="border:1px solid #ddd;"></td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Labels</td>
+      <td style="padding:12px; border:1px solid #ddd;">Text Items</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of text to display</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
+      <td style="padding:12px; border:1px solid #ddd;">Values</td>
+      <td style="padding:12px; border:1px solid #ddd;">List of segment values</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">C</td>
+      <td style="padding:12px; border:1px solid #ddd;">Color</td>
+      <td style="padding:12px; border:1px solid #ddd;">Rectangle fill color</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Wd</td>
+      <td style="padding:12px; border:1px solid #ddd;">Widths</td>
+      <td style="padding:12px; border:1px solid #ddd;">Maximum rectangle width in pixels</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>These tools are flexible, allowing road detail inputs to be modified through the provided .csv input files. This enables users to customize parameters, update design assumptions, and test multiple scenarios without altering the core model logic.</p>
+</div>
 
 
 

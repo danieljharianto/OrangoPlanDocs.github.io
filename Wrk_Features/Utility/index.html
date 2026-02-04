@@ -838,17 +838,6 @@
 <h2 id="utility">Utility</h2>
 <p>Utility Tools support data handling, interoperability, and workflow management across the modeling environment. The tools are divided into six categories: File I/O, for importing and exporting data; Data Preview and Manipulation, for inspecting, cleaning, and transforming datasets; Data Classification, for organizing data into meaningful groups; Rhino Reference, for linking and managing Rhino geometry; List Matching, for aligning and synchronizing datasets; and Object Attributes, for editing and managing geometric and non-geometric attributes.</p>
 <h3 id="file-io">File I/O</h3>
-<div class="admonition tip">
-<p class="admonition-title">Important Tips</p>
-<ul>
-<li>Ensure all input files follow the required format, structure, and encoding (e.g., consistent delimiters, headers, and data types).</li>
-<li>Verify coordinate systems, units, and scale before importing to avoid misalignment or incorrect calculations.</li>
-<li>Clean and validate datasets in advance by removing null values, duplicates, or inconsistent entries.</li>
-<li>When exporting data, clearly define attribute fields and naming conventions to maintain compatibility with GIS, CAD, or external analysis tools.</li>
-<li>Use incremental exports during iterative workflows to track changes and simplify troubleshooting.</li>
-<li>Always cross-check imported and exported data against the source files to confirm accuracy and completeness.</li>
-</ul>
-</div>
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -1349,9 +1338,73 @@
     </tr>
   </thead>
   <tbody>
-    </tr>
+    <!-- Extract Object Attributes -->
     <tr>
       <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Utility/U_Extract_Object_Attributes.png" alt="Extract Object Attributes" style="height:25px; margin-bottom:5px;">
+          <span>Extract Attributes</span>
+        </div>
+      </td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Extracts object attribute key–value pairs from referenced Rhino object</td>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">G</td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Geometry</td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Referenced geometry from Rhino</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Key</td>
+      <td style="padding:12px; border:1px solid #ddd;">Keys</td>
+      <td style="padding:12px; border:1px solid #ddd;">Attribute keys</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
+      <td style="padding:12px; border:1px solid #ddd;">Values</td>
+      <td style="padding:12px; border:1px solid #ddd;">Attribute values</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Ref</td>
+      <td style="padding:12px; border:1px solid #ddd;">Referenced Layer</td>
+      <td style="padding:12px; border:1px solid #ddd;">Object's layer name</td>
+    </tr>
+
+    <!-- Edit Object Attributes -->
+    <tr>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
+        <div style="display:flex; flex-direction:column; align-items:center;">
+          <img src="../../assets/Utility/U_Edit_Object_Attributes.png" alt="Edit Object Attributes" style="height:25px; margin-bottom:5px;">
+          <span>Edit Attributes</span>
+        </div>
+      </td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Edits object attributes key–value pairs to a referenced Rhino object</td>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">G</td>
+      <td style="padding:12px; border:1px solid #ddd;">Geometry</td>
+      <td style="padding:12px; border:1px solid #ddd;">Referenced geometry from rhino</td>
+      <td rowspan="3" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">Stat</td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Status</td>
+      <td rowspan="3" style="padding:12px; border:1px solid #ddd; vertical-align:middle;">Operation status message</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Key</td>
+      <td style="padding:12px; border:1px solid #ddd;">Keys</td>
+      <td style="padding:12px; border:1px solid #ddd;">Attribute keys</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; padding:12px; border:1px solid #ddd;">Val</td>
+      <td style="padding:12px; border:1px solid #ddd;">Values</td>
+      <td style="padding:12px; border:1px solid #ddd;">Attribute values</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="admonition tip">
+<p class="admonition-title">Important Tips</p>
+<ul>
+<li>Ensure all input files follow the required format, structure, and encoding (e.g., consistent delimiters, headers, and data types).</li>
+<li>Verify coordinate systems, units, and scale before importing to avoid misalignment or incorrect calculations.</li>
+<li>Clean and validate datasets in advance by removing null values, duplicates, or inconsistent entries.</li>
+<li>When exporting data, clearly define attribute fields and naming conventions to maintain compatibility with GIS, CAD, or external analysis tools.</li>
+<li>Use incremental exports during iterative workflows to track changes and simplify troubleshooting.</li>
+<li>Always cross-check imported and exported data against the source files to confirm accuracy and completeness.</li>
+</ul>
+</div>
 
 
 
