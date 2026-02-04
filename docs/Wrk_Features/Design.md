@@ -9,6 +9,10 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
 
 ### Road Tools
 
+!!! Tip  "Tip"
+
+    These tools are flexible, allowing road detail inputs to be modified through the provided .csv input files. This enables users to customize parameters, update design assumptions, and test multiple scenarios without altering the core model logic.
+
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
     <tr style="background-color: #e8e8e8;">
@@ -217,9 +221,6 @@ Design Tools enable designers to test and compare spatial, environmental, and pe
   </tbody>
 </table>
 
-!!! Tip  "Tip"
-
-    These tools are flexible, allowing road detail inputs to be modified through the provided .csv input files. This enables users to customize parameters, update design assumptions, and test multiple scenarios without altering the core model logic.
 
 
 ### Parcel & Building Tools
