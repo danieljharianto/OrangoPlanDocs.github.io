@@ -251,7 +251,7 @@ Utility Tools support data handling, interoperability, and workflow management a
     <tr>
       <td rowspan="5" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
-          <img src="../../assets/Utility/U_Pivot_By_Header.png" alt="Pivot by Header" style="height:25px; margin-bottom:5px;">
+          <img src="../../assets/Utility/U_Pivot_by_Header.png" alt="Pivot by Header" style="height:25px; margin-bottom:5px;">
           <span>Pivot by Header</span>
         </div>
       </td>
@@ -365,7 +365,7 @@ Utility Tools support data handling, interoperability, and workflow management a
     <tr>
       <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
-          <img src="../../assets/Utility/U_Reference_By_Layer.png" alt="Reference by Layer" style="height:25px; margin-bottom:5px;">
+          <img src="../../assets/Utility/U_Reference_by_Layer.png" alt="Reference by Layer" style="height:25px; margin-bottom:5px;">
           <span>Ref Layer</span>
         </div>
       </td>
@@ -387,7 +387,7 @@ Utility Tools support data handling, interoperability, and workflow management a
     <tr>
       <td rowspan="2" style="text-align:center; padding:12px; border:1px solid #ddd; vertical-align:middle;">
         <div style="display:flex; flex-direction:column; align-items:center;">
-          <img src="../../assets/Utility/U_Reference_By_Color.png" alt="Reference by Color" style="height:25px; margin-bottom:5px;">
+          <img src="../../assets/Utility/U_Reference_by_Color.png" alt="Reference by Color" style="height:25px; margin-bottom:5px;">
           <span>Ref Color</span>
         </div>
       </td>
