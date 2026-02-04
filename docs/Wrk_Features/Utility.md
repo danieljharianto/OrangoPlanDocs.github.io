@@ -10,14 +10,7 @@ Utility Tools support data handling, interoperability, and workflow management a
 
 ### File I/O
 
-!!! Tip  "Important Tips"
 
-    - Ensure all input files follow the required format, structure, and encoding (e.g., consistent delimiters, headers, and data types).
-    - Verify coordinate systems, units, and scale before importing to avoid misalignment or incorrect calculations.
-    - Clean and validate datasets in advance by removing null values, duplicates, or inconsistent entries.
-    - When exporting data, clearly define attribute fields and naming conventions to maintain compatibility with GIS, CAD, or external analysis tools.
-    - Use incremental exports during iterative workflows to track changes and simplify troubleshooting.
-    - Always cross-check imported and exported data against the source files to confirm accuracy and completeness.
 
 <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif;">
   <thead>
@@ -581,3 +574,13 @@ Utility Tools support data handling, interoperability, and workflow management a
   </tbody>
 </table>
 
+
+
+!!! Tip  "Important Tips"
+
+    - Ensure all input files follow the required format, structure, and encoding (e.g., consistent delimiters, headers, and data types).
+    - Verify coordinate systems, units, and scale before importing to avoid misalignment or incorrect calculations.
+    - Clean and validate datasets in advance by removing null values, duplicates, or inconsistent entries.
+    - When exporting data, clearly define attribute fields and naming conventions to maintain compatibility with GIS, CAD, or external analysis tools.
+    - Use incremental exports during iterative workflows to track changes and simplify troubleshooting.
+    - Always cross-check imported and exported data against the source files to confirm accuracy and completeness.
